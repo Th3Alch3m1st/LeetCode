@@ -11,7 +11,7 @@ class Solution {
 				maxIndex = middle;
 					
 			}
-			if(arr[middle]>arr[middle+1]) {
+			else if(arr[middle]>arr[middle+1]) {
 				right = middle - 1;
 				if(arr[right]>maxValue) {
 					maxValue = arr[right];
